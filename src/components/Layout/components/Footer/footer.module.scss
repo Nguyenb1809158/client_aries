@@ -1,0 +1,68 @@
+.content{
+    background-color: #fff;
+    width: 100%;
+    height: 230px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.footer-main{
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.list{
+    list-style-type: none;
+}
+.contact{
+    flex: 1;
+}
+.introduction{
+    flex: 1;
+}
+.list-type{
+    flex: 1;
+}
+.follow-logo{
+    flex: 1;
+}
+.logo-group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5{
+        color: rgb(85, 84, 84);
+    }
+}
+.title{
+    font-size: 1.6rem;
+    color: rgb(26, 25, 25);
+    font-weight: 700;
+}
+.logo-item{
+    font-size: 2.8rem;
+    color: black;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.technologies{
+    color: #038797;
+    margin-top: 15px;
+}
+.fire{
+    color: #f05520;
+}
+.tech-logo-item{
+    font-size: 2.1rem;
+    padding: 0 5px;
+}
+.nguyen{
+    color: #f05520;
+}

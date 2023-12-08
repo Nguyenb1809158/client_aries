@@ -1,0 +1,21 @@
+.content{
+    width: 224px;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 400;
+    .menu-item{
+        margin-left: 0;
+        text-align: left;
+    }
+}
+.menu-popper{
+    padding-bottom: 8px;
+}
+.menu-item{
+    width: 100%;
+    justify-content: flex-start;
+    font-weight: 600;
+    line-height: 1.8rem;
+    &:hover{
+        background-color: rgba(22,24,35,0.03);
+    }
+}

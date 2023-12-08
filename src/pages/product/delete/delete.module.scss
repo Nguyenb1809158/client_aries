@@ -1,0 +1,49 @@
+.wrapper{
+    width: 1150px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 800px;
+    background-color: #fff;
+    font-family: 'sans-serif';
+    font-weight: 700;
+}
+.title{
+    color: #ec0a21;
+    padding: 15px;
+    text-align: center;
+}
+.no-btn{
+    height: 30px;
+    min-width: 120px;
+    background-color: #5a8b5a;
+    color : #fff;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.yes-btn{
+    height: 30px;
+    min-width: 120px;
+    background-image: linear-gradient(0, #3a2626, #f93939);
+    color : #fff;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.info-product{
+    display: flex;
+    h3{
+        padding: 10px;
+    }
+    h4{
+        padding: 10px;
+    }
+}
+.img{
+    display: block;
+    width: 300px;
+}
+.note{
+    color: #ec0a21;
+}

@@ -1,0 +1,198 @@
+.logo-container{
+    width: 200px;
+}
+.form-regist{
+    width: 440px;
+    height: 520px;
+    background-color: #ffffff;
+    margin: 20px 140px;
+    padding: 25px 32px;
+    flex: 5;
+    font-family: 'ProximaNova', sans-serif;
+}
+.container-regist{
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background-color: #fff;
+}
+.container-title{
+    text-align: center;
+    margin: 148px 0 0 150px;
+    flex:7;
+    h1{
+        color: #333;
+        margin: 15px;
+        text-align: center;
+    }
+    p{
+        font-size: 1.7rem;
+        color: #333;
+        text-align: center;
+    }
+}
+.form-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.form-header h3{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #222;
+}
+.form-switch-btn{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff !important;
+}
+.form-switch-btn a{
+    text-decoration: none;
+    color: #e1edee !important;
+}
+.form-input{
+    width: 100%;
+    height: 35px;
+    font-size: 1.5rem;
+    padding: 5px 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    outline: none;
+    &:focus{
+        border-color: #777;
+    }
+}
+.form-group{
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    span{
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: #dbdbdb;
+    }
+}
+.form-info{
+    font-size: 1.6rem;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.form-inputs{
+    margin : 0 5px;
+}
+.form-control{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.login-fail{
+    a{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color:rgb(238, 219, 223);
+    }
+}
+.control-back{
+    background-color: #fff;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+.control-back:hover{
+    background-color: #efefef;
+    border-color: #777;
+}
+.control-regist{
+    background-image: linear-gradient(0,rgba(1,95,105,1),rgba(72,167,149,1));
+    //background-color: rgba(1,95,105,1);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    &:hover{
+        opacity: 0.7;
+        border-color: #777;
+}
+}
+.control-clear{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    &:hover{
+        opacity: 0.7;
+        border-color: #777;
+}
+}
+.form-login{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.login-control{
+    margin-top: 100px;
+}
+.regist-help a{
+    text-decoration: none;
+}
+.form-chung{
+    background-image: linear-gradient(0,#15838e,#e35827);
+    padding: 60px 30px;
+}
+.form-regist-note{
+    flex:5;
+    margin: 60px 270px 0 0;
+    padding-bottom: 100px;
+}
+.form-rg{
+    background-image: linear-gradient(0,#e35827,#15838e);
+    padding: 15px 30px 30px 30px;
+}
+.fin{
+    margin-bottom: 50px;
+}
+.form-btn{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.regist-fail{
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+$primary-color: #fff;
+$accent-color: #009688;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.radio-btn{
+    width: 35px;
+}
+.label{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color:#dbdbdb;
+    margin: 0 5px;
+}
