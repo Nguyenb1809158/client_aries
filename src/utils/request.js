@@ -1,5 +1,5 @@
 import axios from "axios";
 const request= axios.create({
-    baseURL: 'http://localhost:5000/api'
+    baseURL: 'https://server-aries-shop.onrender.com/api'
 })
 export default request
